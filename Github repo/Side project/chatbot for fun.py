@@ -1,7 +1,7 @@
 import telebot
 import datetime
 
-bot = telebot.TeleBot("6171619900:AAG24gBjA5VPbR2axxvabCA71ZQ72MSonlQ")
+bot = telebot.TeleBot("Token Bot")
 
 @bot.message_handler(commands=['start'])
 def start(message):
